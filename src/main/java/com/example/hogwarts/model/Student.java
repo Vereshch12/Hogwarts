@@ -1,7 +1,9 @@
 package com.example.hogwarts.model;
 
+
 import java.util.Objects;
 
+@Entity
 public class Student {
     private Long id;
     private String name;
