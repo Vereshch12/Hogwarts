@@ -1,6 +1,5 @@
 package com.example.hogwarts.model;
 
-
 import java.util.Objects;
 
 @Entity
