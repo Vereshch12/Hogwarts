@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class FacultyService {
-    private final FacultyRepository facultyRepository;
+    private FacultyRepository facultyRepository;
 
     public FacultyService(FacultyRepository facultyRepository) {
         this.facultyRepository = facultyRepository;
