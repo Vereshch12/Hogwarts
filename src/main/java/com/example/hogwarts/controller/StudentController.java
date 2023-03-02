@@ -55,7 +55,7 @@ public class StudentController {
     }
 
     @GetMapping("{age}")
-    public ResponseEntity<List<Student>> getAllFaciltiesByColor(@PathVariable int age){
+    public ResponseEntity<List<Student>> getStudentsByAge(@PathVariable int age){
         return ResponseEntity.ok(studentService.getStudentsByAge(age));
     }
 }
