@@ -3,8 +3,8 @@ FROM student;
 
 SELECT *
 FROM student
-WHERE age > 0
-  and age < 115;
+WHERE age > 12
+  and age < 20;
 
 SELECT student.name
 from student;
