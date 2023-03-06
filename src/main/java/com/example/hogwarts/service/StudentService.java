@@ -17,7 +17,7 @@ import static java.nio.file.StandardOpenOption.CREATE_NEW;
 @Service
 public class StudentService {
 
-    @Value("${avatars.dir.path}")
+    @Value("${path.to.avatars.folder}")
     private String avatarsDir;
 
     private StudentRepository studentRepository;
