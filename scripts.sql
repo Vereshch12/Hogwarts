@@ -1,6 +1,9 @@
 SELECT *
 FROM student;
 
+ALTER TABLE avatar DROP COLUMN image;
+ALTER TABLE avatar ADD COLUMN image bytea;
+
 SELECT *
 FROM student
 WHERE age > 12
@@ -19,3 +22,6 @@ where age < student.id;
 
 SELECT * from faculty, student
 where student.id = faculty.id
+
+ALTER TABLE avatar DROP COLUMN image;
+ALTER TABLE avatar ADD COLUMN image bytea;
